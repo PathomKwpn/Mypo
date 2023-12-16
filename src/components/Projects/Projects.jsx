@@ -1,6 +1,7 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 const ProjectsPage = () => {
+  const nevigate = useNavigate();
   return (
     <div className="sm:min-h-[100vh] bg-[#FFFFFF] flex flex-col items-center py-[70px] px-[15px] bg-cover">
       <div
@@ -15,22 +16,28 @@ const ProjectsPage = () => {
           <div className="mb-[30px] lg:grid lg:grid-cols-2 lg:mb-[110px]">
             <img
               className="rounded-[5px] lg:w-[100%] shadow-xl"
-              src="/image/projects-img/air-clonebnb.png"
+              src="/image/projects-img/GrobFood/Home.png"
               alt=""
             />
             <div className="flex flex-col justify-center md:mb-[100px]">
               <div className="mt-[30px] flex flex-col justify-center">
                 <h1 className="text-[18px] font-bold mb-4 text-center sm:text-xl lg:text-[28px]">
-                  Airbnb-clone
+                  Grob Food
                 </h1>
                 <p className="text-[15px] text-[#666] text-center mb-[25px] sm:px-[80px] lg:px-[30px] lg:text-[18px] xl:px-[60px]">
-                  Airbnb-clone is a project that clones the appearance of a
-                  website to look like the actual website. To learn about html,
-                  css and the placement of elements on web pages.
+                  GrobFood is a website with functions and formats that are
+                  based on the GrabFood website. It is an E-commerce website
+                  with both front-end and back-end development. A database has
+                  also been created to store various information.
                 </p>
               </div>
               <div className="flex justify-center xl:mt-[50px]">
-                <button className="xl:px-[30px] xl:py-[10px] xl:text-[18px] shadow-xl bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                <button
+                  className="xl:px-[30px] xl:py-[10px] xl:text-[18px] shadow-xl bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
+                  onClick={() => {
+                    nevigate("/Project-GrobFood");
+                  }}
+                >
                   Detail
                 </button>
               </div>

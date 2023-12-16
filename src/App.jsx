@@ -1,22 +1,24 @@
 import { useState } from "react";
 
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import Homepage from "./components/Home";
-import About from "./components/About/About";
-import ProjectsPage from "./components/Projects/Projects";
-import Contact from "./components/Contact/Contact";
+import MainPage from "./MainPage";
+import { GrobFood } from "./components/Projects/ProjectList";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0);
-
+  const router = createBrowserRouter([
+    {
+      path: "/Home",
+      element: <MainPage />,
+    },
+    {
+      path: "/Project-GrobFood",
+      element: <GrobFood />,
+    },
+  ]);
   return (
     <>
-      <Navbar />
-      <Homepage />
-      <About />
-      <ProjectsPage />
-      <Contact />
+      <RouterProvider router={router} />
     </>
   );
 }
