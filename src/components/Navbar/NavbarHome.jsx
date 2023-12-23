@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiAlignJustify, FiMenu, FiX } from "react-icons/fi";
 import { HashLink } from "react-router-hash-link";
-const Navbar = () => {
+const NavbarHome = () => {
   const [clickMenu, setClickMenu] = useState(false);
   const handleClick = () => setClickMenu(!clickMenu);
   return (
@@ -16,19 +16,19 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="hover:border-b-2 border-black">
-            <Link className=" font-bold xl:text-xl" to="/">
+            <HashLink className=" font-bold xl:text-xl" smooth to="#about-me">
               ABOUT
-            </Link>
+            </HashLink>
           </li>
           <li className="hover:border-b-2 border-black">
-            <Link className=" font-bold xl:text-xl" to="/">
+            <HashLink className=" font-bold xl:text-xl" smooth to="#projects">
               PROJECTS
-            </Link>
+            </HashLink>
           </li>
           <li className="hover:border-b-2 border-black">
-            <Link className=" font-bold xl:text-xl" to="/">
+            <HashLink className=" font-bold xl:text-xl" smooth to="#contact">
               CONTACT
-            </Link>
+            </HashLink>
           </li>
         </ul>
         <ul
@@ -39,24 +39,24 @@ const Navbar = () => {
           }
         >
           <li className="hover:border-b-2 border-[white]">
-            <Link className="font-bold  text-[25px]" to="/">
+            <HashLink className="font-bold  text-[25px]" smooth to="/">
               Home
-            </Link>
+            </HashLink>
           </li>
           <li className="hover:border-b-2">
-            <Link className="font-bold text-[25px]" to="/">
+            <HashLink className="font-bold text-[25px]" smooth to="#about">
               About
-            </Link>
+            </HashLink>
           </li>
           <li className="hover:border-b-2">
-            <Link className="font-bold text-[25px]" to="/">
+            <HashLink className="font-bold text-[25px]" smooth to="#projects">
               Project
-            </Link>
+            </HashLink>
           </li>
           <li className="hover:border-b-2">
-            <Link className="font-bold text-[25px]" to="/">
+            <HashLink className="font-bold text-[25px]" smooth to="#contact">
               Contact
-            </Link>
+            </HashLink>
           </li>
         </ul>
         <div className="flex text-[40px] sm:hidden" onClick={handleClick}>
@@ -67,4 +67,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarHome;

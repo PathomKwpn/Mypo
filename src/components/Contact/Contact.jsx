@@ -25,7 +25,10 @@ const Contact = () => {
   };
   return (
     <div className="sm:min-h-[100vh] bg-[url('/image/bg-contact.jpg')] flex flex-col items-center py-[70px] px-[15px] bg-cover">
-      <div className="flex flex-col items-center justify-center mb-[30px] pb-2 font-bold text-[24px]  sm:text-3xl md:text-5xl lg:text-6xl  lg:mb-[60px] tracking-widest">
+      <div
+        className="flex flex-col items-center justify-center mb-[30px] pb-2 font-bold text-[24px]  sm:text-3xl md:text-5xl lg:text-6xl  lg:mb-[60px] tracking-widest"
+        id="contact"
+      >
         Contact Me
         <div className="w-[30px] h-[3px] md:h-[5px] md:w-[40px] md:mt-[20px] lg:h-[7px] lg:w-[50px] bg-[#7843e9] rounded-md mt-[10px]"></div>
       </div>
