@@ -50,7 +50,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center ">
               <img
-                src="../public/image/projects-img/Airbnb/air-clonebnb.png"
+                src="./image/projects-img/Airbnb/air-clonebnb.png"
                 alt="Airbnb-1-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -59,7 +59,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/Airbnb/air-clonebnb-2.png"
+                src="./image/projects-img/Airbnb/air-clonebnb-2.png"
                 alt="Airbnb-2-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -69,7 +69,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/Airbnb/air-clonebnb-3.png"
+                src="./image/projects-img/Airbnb/air-clonebnb-3.png"
                 alt="Airbnb-3-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -116,14 +116,14 @@ const GrobFoodPage = () => {
             <div className="w-[220px] h-[250px] flex flex-col items-center justify-between py-[20px] backdrop-blur-2xl bg-[white]/70 rounded-xl shadow-md hover:shadow-xl">
               <div className="flex flex-col justify-center items-center font-bold mb-[24px]">
                 <img
-                  src="../public/image/logo-social/Frontend.png"
+                  src="./image/logo-social/Frontend.png"
                   className="w-[50px] h-[50px] object-contain"
                   alt=""
                 />
                 <span>Front-end Hosting</span>
               </div>
               <img
-                src="../public/image/logo-social/Netlify_logo.png"
+                src="./image/logo-social/Netlify_logo.png"
                 className="bg-white p-[12px] w-[200px] h-[90px] object-contain rounded-lg shadow-md"
                 alt=""
               />

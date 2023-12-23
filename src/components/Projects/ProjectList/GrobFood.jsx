@@ -56,7 +56,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center ">
               <img
-                src="../public/image/projects-img/GrobFood/Home.png"
+                src="./image/projects-img/GrobFood/Home.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -66,7 +66,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/Login.png"
+                src="./image/projects-img/GrobFood/Login.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -77,7 +77,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/Register.png"
+                src="./image/projects-img/GrobFood/Register.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -87,7 +87,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/StoreList.png"
+                src="./image/projects-img/GrobFood/StoreList.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -97,7 +97,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/StoreDetail.png"
+                src="./image/projects-img/GrobFood/StoreDetail.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -107,7 +107,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/Cart.png"
+                src="./image/projects-img/GrobFood/Cart.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -117,7 +117,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/Checkbill.png"
+                src="./image/projects-img/GrobFood/Checkbill.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -127,7 +127,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/Checkbill.png"
+                src="./image/projects-img/GrobFood/Checkbill.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -137,7 +137,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/Partner_Information.png"
+                src="./image/projects-img/GrobFood/Partner_Information.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -147,7 +147,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/Checkbill.png"
+                src="./image/projects-img/GrobFood/Checkbill.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -157,7 +157,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/Partner_MenuList.png"
+                src="./image/projects-img/GrobFood/Partner_MenuList.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -167,7 +167,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/Partner_OrderList.png"
+                src="./image/projects-img/GrobFood/Partner_OrderList.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -177,7 +177,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/Driver_Home.png"
+                src="./image/projects-img/GrobFood/Driver_Home.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -187,7 +187,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/Driver_History.png"
+                src="./image/projects-img/GrobFood/Driver_History.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -197,7 +197,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/Driver_OrderDetail.png"
+                src="./image/projects-img/GrobFood/Driver_OrderDetail.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -207,7 +207,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/AdminLogin.png"
+                src="./image/projects-img/GrobFood/AdminLogin.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -217,7 +217,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/AdminHome.png"
+                src="./image/projects-img/GrobFood/AdminHome.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -227,7 +227,7 @@ const GrobFoodPage = () => {
           <SwiperSlide>
             <div className="mb-[24px] flex flex-col items-center justify-center">
               <img
-                src="../public/image/projects-img/GrobFood/AdminAddcoupon.png"
+                src="./image/projects-img/GrobFood/AdminAddcoupon.png"
                 alt="GrobFood-Home-pic"
                 className="mt-[8px] shadow-md"
               />
@@ -352,14 +352,14 @@ const GrobFoodPage = () => {
             <div className="w-[220px] h-[250px] flex flex-col items-center justify-between py-[20px] backdrop-blur-2xl bg-[white]/70 rounded-xl shadow-md">
               <div className="flex flex-col justify-center items-center font-bold mb-[24px]">
                 <img
-                  src="../public/image/logo-social/Frontend.png"
+                  src="./image/logo-social/Frontend.png"
                   className="w-[50px] h-[50px] object-contain"
                   alt=""
                 />
                 <span>Front-end Hosting</span>
               </div>
               <img
-                src="../public/image/logo-social/cloudflare.png"
+                src="./image/logo-social/cloudflare.png"
                 className="bg-white p-[12px] w-[200px] h-[90px] object-contain rounded-lg shadow-md"
                 alt=""
               />
@@ -367,14 +367,14 @@ const GrobFoodPage = () => {
             <div className="w-[220px] h-[250px] flex flex-col items-center justify-between py-[20px] backdrop-blur-2xl bg-[white]/70 rounded-xl shadow-md">
               <div className="flex flex-col justify-center items-center font-bold mb-[24px]">
                 <img
-                  src="../public/image/logo-social/Backend.png"
+                  src="./image/logo-social/Backend.png"
                   className="w-[50px] h-[50px] object-contain"
                   alt=""
                 />
                 <span>Back-end Hosting</span>
               </div>
               <img
-                src="../public/image/logo-social/railway.png"
+                src="./image/logo-social/railway.png"
                 className="bg-white p-[12px] w-[200px] h-[90px] object-contain rounded-lg shadow-md"
                 alt=""
               />
@@ -382,14 +382,14 @@ const GrobFoodPage = () => {
             <div className="w-[220px] h-[250px] flex flex-col items-center justify-between py-[20px] backdrop-blur-2xl bg-[white]/70 rounded-xl shadow-md">
               <div className="flex flex-col justify-center items-center font-bold mb-[24px] ">
                 <img
-                  src="../public/image/logo-social/Database.png"
+                  src="./image/logo-social/Database.png"
                   className="w-[50px] h-[50px] object-contain"
                   alt=""
                 />
                 <span>Database Hosting</span>
               </div>
               <img
-                src="../public/image/logo-social/render.png"
+                src="./image/logo-social/render.png"
                 className="bg-white p-[12px] w-[200px] h-[90px] object-contain rounded-lg shadow-md"
                 alt=""
               />
