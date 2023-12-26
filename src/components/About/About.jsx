@@ -11,10 +11,12 @@ const About = () => {
         <div className="w-[30px] h-[3px] md:h-[5px] md:w-[40px] md:mt-[20px] lg:h-[7px] lg:w-[50px] bg-[#7843e9] rounded-md mt-[10px]"></div>
       </div>
       <div className="text-[14px] flex justify-center max-w-[300px] text-center sm:text-lg sm:max-w-[500px] mb-[20px] md:text-xl lg:text-2xl lg:max-w-[700px] md:mb-[50px] lg:mb-[120px]">
-        I am a fresh graduate of Information Technology currently looking for an
-        entry-level Front-end Developer position to learn and gain experience
-        from real work and seek new challenges. In order to be successful in
-        this career
+        I am a fresh graduate of the Information Technology major. I don't have
+        any work experience yet. But there was learning from doing a website
+        project about e-commerce that had both front-end and back-end work. I am
+        currently looking for an entry-level front-end developer position with a
+        passion to learn and gain experiences from real work and to continuously
+        search for an opportunity to be successful in this career.
       </div>
 
       <div className="w-full flex flex-col items-center justify-center mb-[30px] pb-2 font-bold text-[24px] sm:text-3xl md:text-5xl lg:text-5xl  md:mb-[40px] lg:mb-[60px]">
@@ -128,6 +130,13 @@ const About = () => {
             <img
               className="object-contain drop-shadow-md"
               src="./image/skill_logo/Dbeaver.png"
+              alt=""
+            />
+          </li>
+          <li className="flex bg-white justify-center w-[70px] h-[70px] sm:w-[100px] sm:h-[100px] md:w-[140px] md:h-[140px] lg:w-[100px] lg:h-[100px] font-bold p-4 rounded-2xl shadow-md hover:shadow-[#8f8f8f] border-2">
+            <img
+              className="object-contain drop-shadow-md"
+              src="./image/skill_logo/Photoshop.png"
               alt=""
             />
           </li>

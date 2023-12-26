@@ -50,6 +50,38 @@ const ProjectsPage = () => {
           <div className="mb-[30px] lg:grid lg:grid-cols-2 lg:mb-[110px]">
             <img
               className="rounded-[5px] lg:w-[100%] shadow-xl"
+              src="/image/projects-img/pokedex/pokedex_1.png"
+              alt=""
+            />
+            <div className="flex flex-col justify-center md:mb-[100px]">
+              <div className="mt-[30px] flex flex-col justify-center">
+                <h1 className="text-[18px] font-bold mb-4 text-center sm:text-xl lg:text-[28px]">
+                  Pokedex
+                </h1>
+                <p className="text-[15px] text-[#666] text-center mb-[25px] sm:px-[80px] lg:px-[30px] lg:text-[18px] xl:px-[60px]">
+                  Pokedex is a website that retrieves API data that collects
+                  information about various types of pokemon from PokeAPI and
+                  displays them on the web page.
+                </p>
+                <span className="text-[13px] text-[#666] text-center mb-[25px] sm:px-[80px] lg:px-[30px] lg:text-[16px] xl:px-[60px]">
+                  Tool : React,Tailwind CSS, TypeScript, Axios, NodeJS, ExpresJS
+                </span>
+              </div>
+              <div className="flex justify-center xl:mt-[50px]">
+                <button
+                  className="xl:px-[30px] xl:py-[10px] xl:text-[18px] shadow-xl bg-[#7843E9] hover:bg-[#704bbe] text-white font-bold py-2 px-4 border-b-4 border-[#5b3aa3] hover:border-[#543a8d] rounded"
+                  onClick={() => {
+                    nevigate("/Project-Pokedex");
+                  }}
+                >
+                  Detail
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="mb-[30px] lg:grid lg:grid-cols-2 lg:mb-[110px]">
+            <img
+              className="rounded-[5px] lg:w-[100%] shadow-xl"
               src="/image/projects-img/Airbnb/air-clonebnb.png"
               alt=""
             />
